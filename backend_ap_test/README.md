@@ -16,7 +16,7 @@
 
 It will start a flask python process and listening tcp 5000 port.
 
-Started 5 porcesses run ocnes command (tcp 5001 - tcp 5005)
+Start 5 processes by run once command (tcp 5001 to tcp 5005)
 
    **for i in {1..5}; do cp -f ./5000.py ./500$i.py; done**
 
